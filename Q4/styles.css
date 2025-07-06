@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif; /* This font will be inherited by all elements */
+    line-height: 1.6; /* Line height will also be inherited */
+    color: #333; /* Default text color */
+    margin: 20px;
+}
+
+.container {
+    background-color: #f9f9f9; /* Background color for the container */
+    padding: 20px; /* Padding inside the container */
+    border: 1px solid #ccc; /* Border around the container */
+}
+
+h1 {
+    color: navy; /* Specific color for the main heading */
+}
+
+h2 {
+    color: darkgreen; /* Specific color for subheadings */
+}
+
+.content p {
+    margin: 10px 0; /* Margin for paragraphs within the content */
+}
+
+.highlight {
+    font-weight: bold; /* Make this text bold */
+    color: red; /* Override inherited color for highlighted text */
+}
+
+footer {
+    margin-top: 20px; /* Margin above the footer */
+    border-top: 1px solid #ccc; /* Top border for visual separation */
+    padding-top: 10px; /* Padding above footer text */
+}

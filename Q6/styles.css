@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box; /* Simplify width/height calculations */
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Font for the entire page */
+    background-color: #e9ecef; /* Light gray background */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding around the page */
+}
+
+.card {
+    background-color: #ffffff; /* White background for the card */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.13); /* Subtle shadow for depth */
+    max-width: 800px; /* Max width for the card */
+    margin: 20px auto; /* Center the card */
+    padding: 40px; /* Generous padding inside the card */
+}
+
+header {
+    text-align: center; /* Center the header text */
+    background-color: #007BFF; /* Header background color */
+    color: white; /* Header text color */
+    padding: 15px 0; /* Padding inside the header */
+    border-radius: 15px 15px 0 0; /* Rounded top corners */
+}
+
+h1 {
+    font-size: 28px; /* Size for the main heading */
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between columns */
+}
+
+.left-column {
+    flex: 1; /* Take up equal space */
+    margin-right: 20px; /* Space between columns */
+}
+.left-column p{
+    text-align: center;
+}
+
+.right-column {
+    flex: 1; /* Take up equal space */
+    text-align: center; /* Center-align the content */
+}
+
+.profile-img {
+    border-radius: 50%; /* Make the image circular */
+    width: 150px; /* Fixed width for the image */
+    height: 150px; /* Fixed height for the image */
+    border: 3px solid #007BFF; /* Border around the image */
+}
+
+h2 {
+    color: #007BFF; /* Blue color for subheadings */
+    margin-top: 20px; /* Space above subheadings */
+    text-align: center;
+}
+
+p, ul {
+    font-size: 16px; /* Font size for paragraphs and lists */
+    line-height: 1.5; /* Spacing between lines */
+}
+
+ul {
+    list-style-type: none; /* Remove default list bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+li {
+    padding: 10px 0; /* Spacing between list items */
+}
+
+hr {
+    border: 0; /* Remove default border */
+    height: 2px; /* Thickness of the rule */
+    background-color: #007BFF; /* Color of the rule */
+    margin: 20px 0; /* Margin around the rule */
+}
+
+a {
+    color: #3f4246; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: rgb(122, 13, 26);
+}
+
+footer {
+    text-align: center; /* Center the footer text */
+    margin-top: 20px; /* Space above the footer */
+    color: #6c757d; /* Footer text color */
+}

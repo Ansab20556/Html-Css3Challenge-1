@@ -1,0 +1,29 @@
+/* Class selector for text */
+.text {
+    color: blue; /* Specificity: (0, 0, 1, 0) */
+}
+
+/* Class selector for highlighted text */
+.highlight {
+    color: green; /* Specificity: (0, 0, 1, 0) */
+}
+
+/* Class selector for box */
+.box {
+    color: orange; /* Specificity: (0, 0, 1, 0) */
+}
+
+/* ID selector for container */
+#container {
+    color: red; /* Specificity: (0, 1, 0, 0) */
+}
+
+/* Element selector for h1 */
+h1 {
+    color: purple; /* Specificity: (0, 0, 0, 1) */
+}
+
+/* Element selector for p */
+p {
+    color: rgb(255, 0, 166); /* Specificity: (0, 0, 0, 1) */
+}
